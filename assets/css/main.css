@@ -128,3 +128,38 @@ body{
     border: none;
     width: 70%;
 }
+
+.items-wrapper{
+    background-image: url("../img/icons/background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -50px;
+}
+
+.item-outer-wrapper{
+    border: 1px solid #638B5D;
+}
+
+.item-inner-wrapper{
+    border: 3px solid #638B5D;
+    background-color: #fff;
+    padding: 20px 10px;
+}
+
+.item-number-wrapper{
+    background-color: #638B5D;
+    color: white;
+    padding: 5px 15px;
+}
+
+.item-header-border{
+    border-top: 1px solid #638B5D;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.item-header{
+    background-color: #fff;
+    margin-top: -115px;
+    width: fit-content;
+}
