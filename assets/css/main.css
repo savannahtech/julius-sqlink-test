@@ -114,3 +114,17 @@ body{
     color: #256693;
     width: fit-content;
 }
+
+.btn-custom{
+    background-color: #256693;
+    color: white;
+    border-radius: 100px !important;
+}
+
+.custom-input{
+    padding: 5px 15px;
+    color: #256693;
+    background: #F0F0F0;
+    border: none;
+    width: 70%;
+}
