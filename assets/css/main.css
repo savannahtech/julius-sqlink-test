@@ -1,0 +1,116 @@
+body{
+    font-family: 'AtlasPro AAA', sans-serif;
+}
+
+.menu-toggler{
+    background-color: #256693;
+}
+
+.logged-in-wrapper{
+    background-color: #256693;
+    color: white;
+}
+
+.logo-wrapper::after {
+    content: "";
+    border-left: 1px solid #256693;
+    height: 100px;
+    margin-right: 20px;
+  }
+
+.sidebar-wrapper{
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: fixed;
+}
+
+.nav-item .active{
+    background-color: #638B5D !important;
+    color: white !important;
+}
+
+.nav-link{
+    color: #638B5D !important;
+}
+
+.banner-wrapper{
+    position: fixed;
+}
+
+.main-header{
+    color: #256693;
+    font-weight: bold;
+}
+
+.alert-custom{
+    background-color: rgba(99, 139, 93, 0.1);
+    color: #638B5D;
+    border-radius: 10px !important;
+    padding: 30px !important;
+}
+
+.btn-custom{
+    background-color: #638B5D;
+    color: white;
+    border-radius: 8px !important;
+}
+
+.btn-custom-outline{
+    border: 1px solid #638B5D;
+    color: #638B5D;
+    border-radius: 8px !important;
+}
+
+.content-wrapper{
+    border-radius: 12px;
+    border: 1px solid #638B5D;
+}
+
+.content-title{
+    color: #638B5D;
+}
+
+.link-custom{
+    color: #256693;
+}
+
+.accordion-item {
+    background: rgba(248, 248, 248, 1) !important;
+    border-radius: 8px !important;
+    border: 0 !important;
+    margin: 20px 0 !important;
+    padding: 5px 20px !important;
+}
+
+.accordion-button{
+    background: rgba(248, 248, 248, 1) !important;
+    padding: 5px 20px !important;
+}
+
+.text-custom{
+    color: #638B5D;
+}
+
+.accordion-button::after{
+    background-image: url("../img/icons/expand.svg");
+}
+
+.accordion-text{
+    color: #256693;
+    font-weight: bold;
+}
+
+.accordion-desc-wrapper{
+    border: 1px solid #256693;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.document-wrapper{
+    border: 1px solid #256693;
+    padding: 5px 15px;
+    color: #256693;
+    width: fit-content;
+}

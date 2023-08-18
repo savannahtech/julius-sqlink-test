@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he-IL">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Test Website</title>
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="shadow-sm fixed-top navbar-light bg-light">
+        <div class="">
+            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                <div class="d-flex">
+                    <div class="menu-toggler py-2 px-4"></div>
+
+                    <div class="logo-wrapper px-2 py-1">
+                        <img src="assets/img/logo.png" alt="logo" height="32" />
+                    </div>
+
+                    <div class="mx-3 my-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22"
+                            viewBox="0,0,256,256" style="fill:#000000;">
+                            <g fill="#256693" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M21,3c-9.37891,0 -17,7.62109 -17,17c0,9.37891 7.62109,17 17,17c3.71094,0 7.14063,-1.19531 9.9375,-3.21875l13.15625,13.125l2.8125,-2.8125l-13,-13.03125c2.55469,-2.97656 4.09375,-6.83984 4.09375,-11.0625c0,-9.37891 -7.62109,-17 -17,-17zM21,5c8.29688,0 15,6.70313 15,15c0,8.29688 -6.70312,15 -15,15c-8.29687,0 -15,-6.70312 -15,-15c0,-8.29687 6.70313,-15 15,-15z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="dropdown text-end py-1 me-2">
+                        <a href="#" class="d-block link-custom text-decoration-none dropdown-toggle" id="dropdownUser1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                            <li><a class="dropdown-item" href="#">עִברִית</a></li>
+                            <li><a class="dropdown-item" href="#">עִברִית</a></li>
+                            <li><a class="dropdown-item" href="#">עִברִית</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d-flex me-4 logged-in-wrapper rounded-pill px-2 py-1">
+                    <img src="assets/img/icons/user.svg" alt="logo" width="20" height="20" class="me-1" />
+                    <span>איזור אישי </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-4">
+        <div class="row">
+            <div class="col-md-2" style="height: 100vh;">
+                <div class="d-flex flex-column flex-shrink-0 p-3 pe-5  sidebar-wrapper">
+                    <a href="/" class="mb-3 pe-5 text-decoration-none link-custom">
+                        <img src="assets/img/icons/back-arrow.svg" alt="back" />
+                        <span class="fs-4 me-2 mt-2">חזור</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">
+                                לוּחַ מַחווָנִים
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                אודות אגף התפעול
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                איכות מי השתיה שלנו
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                הפסקות מים און ליין
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                שפכי מפעלים
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                מכון לטיהור שפכים
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                אודות אגף התפעול
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 mt-4">
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-decoration-none link-custom" href="#">בית</a>
+                            </li>
+                            <li class="breadcrumb-item"><a class="text-decoration-none link-custom" href="#">תפעול</a>
+                            </li>
+                            <li class="breadcrumb-item"><a class="text-decoration-none link-custom" href="#">איכות מי
+                                    השתיה שלנו</a></li>
+                        </ol>
+                    </nav>
+
+                    <h1 class="main-header"> משרות ומכרזים</h1>
+
+                    <div class="alert alert-custom mt-5">
+                        <h3> בחרו נושאים להצגה </h3>
+
+                        <div class="d-flex mt-3">
+                            <button class="btn btn-custom me-2">
+                                <span> מכרזי בכירים</span> | <span>4</span>
+                            </button>
+                            <button class="btn btn-custom-outline">
+                                <span> משרות מי שבע</span> | <span>3</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="content-wrapper p-3 mt-5">
+                        <div class="d-flex">
+                            <img src="assets/img/icons/group.svg" class="me-3" />
+                            <h3 class="content-title mt-5">כותרת מבחן התראה</h3>
+                        </div>
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <div class="d-block">
+                                            <small class="link-custom">מועד פרסום: 7/11/2021 | מועד עדכון:
+                                                10/12/21</small>
+                                            <div class="d-flex mt-4">
+                                                <div class="py-2 px-3 border-end align-content-center">
+                                                    <div class="text-center">
+                                                        <img src="assets/img/icons/checkmark.svg" class="text-center" />
+                                                    </div>
+                                                    <p class="text-center text-custom mt-2">סטטוס: פתוח</p>
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h5 class="link-custom">אחראי רכש באגף הלוגיסטיקה</p>
+                                                        <div class="d-flex">
+                                                            <div class="d-flex">
+                                                                <p class="link-custom border-end pe-3">מועד אחרון להגשה:
+                                                                    <span class="text-custom">12/12/2021</span></p>
+                                                                <p class="link-custom ms-3">שעה: <span
+                                                                        class="text-custom">16:00</span></p>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </button>
+                                     
+                                    
+                                    </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p class="accordion-text">
+                                            למפעל הייצור של חברת אורטל קמינים באזור אריאל, אנו מחפשים איש/אשת רכש חו”ל.
+                                            חברת אורטל הינה חברה תעשייתית , בינלאומית המייצרת ומוכרת קמינים בארץ ובעולם
+                                            .למפעל הייצור של חברת אורטל קמינים באזור אריאל, אנו מחפשים איש/אשת רכש חו”ל.
+                                            חברת אורטל הינה חברה תעשייתית , בינלאומית המייצרת ומוכרת קמינים בארץ ובעולם
+                                            .
+                                        </p>
+                                        <hr>
+                                        <div class="row mt-4 mb-4">
+                                            <div class="col-md-4">
+                                                <div class="accordion-desc-wrapper">
+                                                    <div class="text-center link-custom">
+                                                        <img src="assets/img/icons/face-heart.svg" class="img-fluid"
+                                                            alt="face and heart" />
+                                                        <h5 class="mt-3">למה כדאי לך להגיש מועמדות?</h5>
+                                                        <p class="mt-2 ">
+                                                            פוטנציאל שכר גבוה ואופציה לעבודה בנוחות גם מהבית. מנהלים
+                                                            אנושיים ואכפתיים,אופציות קידום נרחבות, עבודה בשעות נוחות
+                                                            ויחס אישי.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 link-custom">
+                                                <p class="fw-bold">דרישות התפקיד</p>
+                                                <ul>
+                                                    <li>רכש חו”ל בעולמות טכניים כשנתיים ומעלה בתחום</li>
+                                                    <li> שיפור אחר ניסיון וידע מתאים בתחום היבוא </li>
+                                                    <li>חומרים וציוד בזמן, באיכות ובמחיר האופטימלי הצעות</li>
+                                                    <li>אחריות על תחום רכש חו”ל בחברה אספקת</li>
+                                                    <li>מחיר, הפקת הזמנות מדרישות רכש ומעקב הספקות הפקת מדדי ספקים והערכת ספקים איתור ספקים</li>
+                                                    <li>בחו”ל להקטנת סיכונים, הורדת עלויות</li>
+                                                </ul>
+
+                                                <div class="d-flex document-wrapper rounded-pill mt-5">
+                                                    <img src="assets/img/icons/pdf-icon.svg" height="20" class="me-2" />
+                                                    <span>דרישות התפקיד</span>
+                                                </div>
+                                                <div class="d-flex document-wrapper rounded-pill mt-2">
+                                                    <img src="assets/img/icons/pdf-icon.svg" height="20" class="me-2" />
+                                                    <span> שאלון למועמד לתפקיד</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="mt-4 link-custom">
+                                            <p class="fw-bold">להגשת מועמדות</p>
+                                            <div class="d-flex">
+                                                <img src="assets/img/icons/linkedin.svg" class="me-2" />
+                                                <p class="mt-2">צרף קישור לעמוד הלינקדאין (אופציונלי)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <div class="d-block">
+                                            <small class="link-custom">מועד פרסום: 7/11/2021 | מועד עדכון:
+                                                10/12/21</small>
+                                            <div class="d-flex mt-4">
+                                                <div class="py-2 px-3 border-end align-content-center">
+                                                    <div class="text-center">
+                                                        <img src="assets/img/icons/checkmark.svg" class="text-center" />
+                                                    </div>
+                                                    <p class="text-center text-custom mt-2">סטטוס: פתוח</p>
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h5 class="link-custom">אחראי רכש באגף הלוגיסטיקה</p>
+                                                        <div class="d-flex">
+                                                            <div class="d-flex">
+                                                                <p class="link-custom border-end pe-3">מועד אחרון להגשה:
+                                                                    <span class="text-custom">12/12/2021</span></p>
+                                                                <p class="link-custom ms-3">שעה: <span
+                                                                        class="text-custom">16:00</span></p>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p class="accordion-text">
+                                            למפעל הייצור של חברת אורטל קמינים באזור אריאל, אנו מחפשים איש/אשת רכש חו”ל.
+                                            חברת אורטל הינה חברה תעשייתית , בינלאומית המייצרת ומוכרת קמינים בארץ ובעולם
+                                            .למפעל הייצור של חברת אורטל קמינים באזור אריאל, אנו מחפשים איש/אשת רכש חו”ל.
+                                            חברת אורטל הינה חברה תעשייתית , בינלאומית המייצרת ומוכרת קמינים בארץ ובעולם
+                                            .
+                                        </p>
+                                        <hr>
+                                        <div class="row mt-4 mb-4">
+                                            <div class="col-md-4">
+                                                <div class="accordion-desc-wrapper">
+                                                    <div class="text-center link-custom">
+                                                        <img src="assets/img/icons/face-heart.svg" class="img-fluid"
+                                                            alt="face and heart" />
+                                                        <h5 class="mt-3">למה כדאי לך להגיש מועמדות?</h5>
+                                                        <p class="mt-2 ">
+                                                            פוטנציאל שכר גבוה ואופציה לעבודה בנוחות גם מהבית. מנהלים
+                                                            אנושיים ואכפתיים,אופציות קידום נרחבות, עבודה בשעות נוחות
+                                                            ויחס אישי.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 link-custom">
+                                                <p class="fw-bold">דרישות התפקיד</p>
+                                                <ul>
+                                                    <li>רכש חו”ל בעולמות טכניים כשנתיים ומעלה בתחום</li>
+                                                    <li> שיפור אחר ניסיון וידע מתאים בתחום היבוא </li>
+                                                    <li>חומרים וציוד בזמן, באיכות ובמחיר האופטימלי הצעות</li>
+                                                    <li>אחריות על תחום רכש חו”ל בחברה אספקת</li>
+                                                    <li>מחיר, הפקת הזמנות מדרישות רכש ומעקב הספקות הפקת מדדי ספקים והערכת ספקים איתור ספקים</li>
+                                                    <li>בחו”ל להקטנת סיכונים, הורדת עלויות</li>
+                                                </ul>
+
+                                                <div class="d-flex document-wrapper rounded-pill mt-5">
+                                                    <img src="assets/img/icons/pdf-icon.svg" height="20" class="me-2" />
+                                                    <span>דרישות התפקיד</span>
+                                                </div>
+                                                <div class="d-flex document-wrapper rounded-pill mt-2">
+                                                    <img src="assets/img/icons/pdf-icon.svg" height="20" class="me-2" />
+                                                    <span> שאלון למועמד לתפקיד</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="mt-4 link-custom">
+                                            <p class="fw-bold">להגשת מועמדות</p>
+                                            <div class="d-flex">
+                                                <img src="assets/img/icons/linkedin.svg" class="me-2" />
+                                                <p class="mt-2">צרף קישור לעמוד הלינקדאין (אופציונלי)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <div class="d-block">
+                                            <small class="link-custom">מועד פרסום: 7/11/2021 | מועד עדכון:
+                                                10/12/21</small>
+                                            <div class="d-flex mt-4">
+                                                <div class="py-2 px-3 border-end align-content-center">
+                                                    <div class="text-center">
+                                                        <img src="assets/img/icons/checkmark.svg" class="text-center" />
+                                                    </div>
+                                                    <p class="text-center text-custom mt-2">סטטוס: פתוח</p>
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h5 class="link-custom">אחראי רכש באגף הלוגיסטיקה</p>
+                                                        <div class="d-flex">
+                                                            <div class="d-flex">
+                                                                <p class="link-custom border-end pe-3">מועד אחרון להגשה:
+                                                                    <span class="text-custom">12/12/2021</span></p>
+                                                                <p class="link-custom ms-3">שעה: <span
+                                                                        class="text-custom">16:00</span></p>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p class="accordion-text">
+                                            למפעל הייצור של חברת אורטל קמינים באזור אריאל, אנו מחפשים איש/אשת רכש חו”ל.
+                                            חברת אורטל הינה חברה תעשייתית , בינלאומית המייצרת ומוכרת קמינים בארץ ובעולם
+                                            .למפעל הייצור של חברת אורטל קמינים באזור אריאל, אנו מחפשים איש/אשת רכש חו”ל.
+                                            חברת אורטל הינה חברה תעשייתית , בינלאומית המייצרת ומוכרת קמינים בארץ ובעולם
+                                            .
+                                        </p>
+                                        <hr>
+                                        <div class="row mt-4 mb-4">
+                                            <div class="col-md-4">
+                                                <div class="accordion-desc-wrapper">
+                                                    <div class="text-center link-custom">
+                                                        <img src="assets/img/icons/face-heart.svg" class="img-fluid"
+                                                            alt="face and heart" />
+                                                        <h5 class="mt-3">למה כדאי לך להגיש מועמדות?</h5>
+                                                        <p class="mt-2 ">
+                                                            פוטנציאל שכר גבוה ואופציה לעבודה בנוחות גם מהבית. מנהלים
+                                                            אנושיים ואכפתיים,אופציות קידום נרחבות, עבודה בשעות נוחות
+                                                            ויחס אישי.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 link-custom">
+                                                <p class="fw-bold">דרישות התפקיד</p>
+                                                <ul>
+                                                    <li>רכש חו”ל בעולמות טכניים כשנתיים ומעלה בתחום</li>
+                                                    <li> שיפור אחר ניסיון וידע מתאים בתחום היבוא </li>
+                                                    <li>חומרים וציוד בזמן, באיכות ובמחיר האופטימלי הצעות</li>
+                                                    <li>אחריות על תחום רכש חו”ל בחברה אספקת</li>
+                                                    <li>מחיר, הפקת הזמנות מדרישות רכש ומעקב הספקות הפקת מדדי ספקים והערכת ספקים איתור ספקים</li>
+                                                    <li>בחו”ל להקטנת סיכונים, הורדת עלויות</li>
+                                                </ul>
+
+                                                <div class="d-flex document-wrapper rounded-pill mt-5">
+                                                    <img src="assets/img/icons/pdf-icon.svg" height="20" class="me-2" />
+                                                    <span>דרישות התפקיד</span>
+                                                </div>
+                                                <div class="d-flex document-wrapper rounded-pill mt-2">
+                                                    <img src="assets/img/icons/pdf-icon.svg" height="20" class="me-2" />
+                                                    <span> שאלון למועמד לתפקיד</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="mt-4 link-custom">
+                                            <p class="fw-bold">להגשת מועמדות</p>
+                                            <div class="d-flex">
+                                                <img src="assets/img/icons/linkedin.svg" class="me-2" />
+                                                <p class="mt-2">צרף קישור לעמוד הלינקדאין (אופציונלי)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="banner-wrapper">
+                    <div class="d-flex">
+                        <div class="mt-5 pe-3">
+                            <img src="assets/img/icons/whatsapp.svg" class="mt-2" />
+                            <img src="assets/img/icons/whatsapp.svg" class="mt-2" />
+                            <img src="assets/img/icons/whatsapp.svg" class="mt-2" />
+                        </div>
+                        <img src="assets/img/construction.png" class="img-fluid" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
