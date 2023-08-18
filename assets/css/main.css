@@ -225,3 +225,34 @@ body{
     color: #256693;
     border-right: 2px solid #638B5D;
 }
+
+footer{
+    background-image: url("../img/map.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+.text-whatsapp{
+    color: #80C675;
+}
+
+.contact-form{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px #0000002E;
+    border-radius: 38px;
+    padding: 40px 25px;
+    color: #256693;
+}
+
+.custom-footer-input{
+    color: #256693;
+    background: #F0F0F0;
+    border: none;
+    padding: 10px 20px !important;
+}
+
+.custom-footer-input::placeholder{
+    color: #D0D0D0;
+}
